@@ -6,25 +6,31 @@ public class LogicalOperators {
 		
 		int a = 10, b = 20, c = 30, d = 50, x;
 		int m = 0b1010101;
+		boolean t = true;
+		boolean u = false;
+		boolean q = !(t&&u);
 		
+		System.out.println("q value is:" + q);
+		
+		
+		int p = c^10;     //caret value
+		
+		System.out.println("p value is :" +p);
 		
 		System.out.println("m value is :" +m);
 		
-		int f = a>>3; 
+		int f = a>>3; //Right shift operator
 		System.out.println("value of f : " +f);
 		
-		int g = a<<3;
+		int g = a<<3;  //Left shift operator
 		System.out.println("value of g : " +g);
-		
 		
 		 x=(a==5)?20:30; 
 		 {
 		 System.out.println ("Variable X: "+x);
 		
 		 }
-		 
-		 
-		 
+		 	 
 		if (a<b) {
 				
 				System.out.println ("Condition A is true : " +"true");
@@ -43,8 +49,6 @@ public class LogicalOperators {
 		
 			System.out.println ("One or both Conditions are true : " + "Perumal" );}
 		else
-				{System.out.println ("both the Conditions are true : " + "Elaya");
-				
-						}
+				{System.out.println ("both the Conditions are true : " + "Elaya");				}
 	}
 }
